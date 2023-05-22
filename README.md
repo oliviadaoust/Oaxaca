@@ -29,7 +29,7 @@ Second part looks at differential in individual labor income gaps among men and 
 
 "Figures decomposition" replicates the global and gender figures with all countries.
 
-The "countrycode "adm1"" do files in the "adm1" folders runs the decompositions comparing the leading region with other by administrative regions, as well as the corresponding figure. The corresponding shapefiles (IDs match) should be stored in the "shp" folder and can be found online.
+The "countrycode "adm1"" do files in the "adm1" folders runs the decompositions comparing the leading region with other by administrative regions, as well as the corresponding figure. The corresponding shapefiles (IDs match) can be found in the "shp" folder 
 
 
 2. Folder structure needed to replicate in new "outputs" folder should be structured as follows for each country
