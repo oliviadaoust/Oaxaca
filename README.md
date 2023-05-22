@@ -16,12 +16,13 @@ Cleaning/harmonizing SEDLAC for Oaxaca Blinder decomposition
 		dlw, coun(ARG) y(2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2015 2016 2017 2018 2019) t(SEDLAC-03) mod(ALL) sur(EPHC) per(S2)
 		save "$user/_OaxacaBlinder_replication/SEDLAC/ARG/ARG_SEDLACall.dta", replace
 	
-	When the respective countrycode cleaning data has run, the clean data is saved into a new dataset in a new folder "inputs", from which the analysis in "code" is done.  
+When the respective countrycode cleaning data has run, the clean data is saved into a new dataset in a new folder "inputs", from which the analysis in "code" is done.  
 
 First part of analysis looks at differential in labor income gaps per capita, based on adult head of household. 
 
 "Decomp eform head" runs the income decompositions comparing the leading region for subgroups (all, b40, urban, skilled, rural) for all surveys but ARG and URY.  
 "Decomp eform urban only head" runs the income decompositions by subgroups for ARG and URY (b40, urban, skilled, rural) as both countries only survey urban areas.
+"Decomp details" looks at the main explaining factors behind the gaps. 
 
 Second part looks at differential in individual labor income gaps among men and women.
 
